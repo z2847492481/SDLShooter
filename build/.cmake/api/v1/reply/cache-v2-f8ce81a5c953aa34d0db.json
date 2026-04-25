@@ -482,6 +482,42 @@
 			"value" : "host=x64"
 		},
 		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREADS_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have library pthreads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have library pthread"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -1102,6 +1138,42 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
+		},
+		{
+			"name" : "SDL2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/Cpp_Library/SDL2/cmake"
+		},
+		{
+			"name" : "SDLMAIN_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "SDLMAIN_LIBRARY-NOTFOUND"
+		},
+		{
 			"name" : "SDLShooter_BINARY_DIR",
 			"properties" : 
 			[
@@ -1136,6 +1208,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "D:/Code/SDLShooter"
+		},
+		{
+			"name" : "SDL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/Cpp_Library/SDL2/include"
+		},
+		{
+			"name" : "SDL_LIBRARY_TEMP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "SDL_LIBRARY_TEMP-NOTFOUND"
 		}
 	],
 	"kind" : "cache",

@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -43,15 +43,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-3ca00f66be7538b9d72c.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-eb08b86a7ea6d727b4d1.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "SDLShooter::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SDLShooter-Debug-bfcd0d1cce2e3d7b84b2.json",
-					"name" : "SDLShooter",
+					"id" : "SDLShooter-Windows::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDLShooter-Windows-Debug-79fd78ee5b90a02eff9e.json",
+					"name" : "SDLShooter-Windows",
 					"projectIndex" : 0
 				},
 				{
@@ -71,7 +71,7 @@
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -105,15 +105,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-3ca00f66be7538b9d72c.json",
+					"jsonFile" : "target-ALL_BUILD-Release-eb08b86a7ea6d727b4d1.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "SDLShooter::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SDLShooter-Release-4e1ef37cca8990c2022e.json",
-					"name" : "SDLShooter",
+					"id" : "SDLShooter-Windows::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDLShooter-Windows-Release-2253e01959d952074382.json",
+					"name" : "SDLShooter-Windows",
 					"projectIndex" : 0
 				},
 				{
@@ -133,7 +133,7 @@
 					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -167,15 +167,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3ca00f66be7538b9d72c.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-eb08b86a7ea6d727b4d1.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "SDLShooter::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SDLShooter-MinSizeRel-1001c63218243b0442bf.json",
-					"name" : "SDLShooter",
+					"id" : "SDLShooter-Windows::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDLShooter-Windows-MinSizeRel-e9099c450bff4f24c72a.json",
+					"name" : "SDLShooter-Windows",
 					"projectIndex" : 0
 				},
 				{
@@ -195,7 +195,7 @@
 					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -229,15 +229,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3ca00f66be7538b9d72c.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-eb08b86a7ea6d727b4d1.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "SDLShooter::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SDLShooter-RelWithDebInfo-62a4896ec5e4139b5b51.json",
-					"name" : "SDLShooter",
+					"id" : "SDLShooter-Windows::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDLShooter-Windows-RelWithDebInfo-eb72ddc279b0a5575f52.json",
+					"name" : "SDLShooter-Windows",
 					"projectIndex" : 0
 				},
 				{

@@ -199,6 +199,19 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "D:/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/Cpp_Library/SDL2/cmake/sdl2-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/Cpp_Library/SDL2/cmake/sdl2-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FeatureSummary.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

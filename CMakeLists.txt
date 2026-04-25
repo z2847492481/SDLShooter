@@ -1,13 +1,28 @@
 cmake_minimum_required(VERSION 3.10.0)
 project(SDLShooter VERSION 0.1.0 LANGUAGES C CXX)
 
-# 设置包含的头文件所在目录
-include_directories("D:/Cpp_Library/SDL2/include")
+# 设置C++标准
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 设置链接库所在目录
-link_directories("D:/Cpp_Library/SDL2/lib/x64")
+# 设置编译选项
+if(MSVC)
+    add_compile_options(/W4 )
+else()
+    add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
 
-add_executable(SDLShooter main.cpp)
+# 设置编译输出目录
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_SOURCE_DIR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_SOURCE_DIR})
+
+# 设置变量
+set(TARGRT ${PROJECT_NAME}-${CMAKE_SYSTEM_NAME})
+
+# 查找并载入SDL2库
+find_package(SDL2 REQUIRED)
+
+add_executable(${TARGRT} main.cpp)
 
 # 链接SDL2库
-target_link_libraries(SDLShooter SDL2main SDL2)
+target_link_libraries(${TARGRT} SDL2::SDL2main SDL2::SDL2)

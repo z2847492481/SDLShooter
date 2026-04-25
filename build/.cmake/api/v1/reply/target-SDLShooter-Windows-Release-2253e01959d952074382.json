@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Debug/SDLShooter.exe"
+			"path" : "D:/Code/SDLShooter/SDLShooter-Windows.exe"
 		},
 		{
-			"path" : "Debug/SDLShooter.pdb"
+			"path" : "D:/Code/SDLShooter/SDLShooter-Windows.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -14,9 +14,8 @@
 		"commands" : 
 		[
 			"add_executable",
-			"link_directories",
 			"target_link_libraries",
-			"include_directories"
+			"add_compile_options"
 		],
 		"files" : 
 		[
@@ -30,25 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 8,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 13,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 5,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -59,17 +52,30 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/W4"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
-					"path" : "D:/Cpp_Library/SDL2/include"
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Cpp_Library/SDL2/cmake/../include"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
 			"sourceIndexes" : 
 			[
 				0
@@ -82,17 +88,17 @@
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "SDLShooter::@6890427a1f51a3e7e1df",
+	"id" : "SDLShooter-Windows::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
 				"role" : "flags"
 			},
 			{
@@ -101,17 +107,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LIBPATH:D:\\Cpp_Library\\SDL2\\lib\\x64",
-				"role" : "libraryPath"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "SDL2main.lib",
+				"fragment" : "D:\\Cpp_Library\\SDL2\\cmake\\..\\lib\\x64\\SDL2main.lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
-				"fragment" : "SDL2.lib",
+				"backtrace" : 2,
+				"fragment" : "D:\\Cpp_Library\\SDL2\\cmake\\..\\lib\\x64\\SDL2.lib",
 				"role" : "libraries"
 			},
 			{
@@ -121,8 +122,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "SDLShooter",
-	"nameOnDisk" : "SDLShooter.exe",
+	"name" : "SDLShooter-Windows",
+	"nameOnDisk" : "SDLShooter-Windows.exe",
 	"paths" : 
 	{
 		"build" : ".",
