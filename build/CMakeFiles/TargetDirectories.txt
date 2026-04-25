@@ -1,0 +1,3 @@
+D:/Code/SDLShooter/build/CMakeFiles/SDLShooter.dir
+D:/Code/SDLShooter/build/CMakeFiles/ALL_BUILD.dir
+D:/Code/SDLShooter/build/CMakeFiles/ZERO_CHECK.dir
