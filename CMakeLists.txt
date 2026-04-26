@@ -25,4 +25,4 @@ find_package(SDL2 REQUIRED)
 add_executable(${TARGRT} main.cpp)
 
 # 链接SDL2库
-target_link_libraries(${TARGRT} SDL2::SDL2main SDL2::SDL2)
+target_link_libraries(${TARGRT} ${SDL2_LIBRARIES})
