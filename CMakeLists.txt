@@ -17,12 +17,24 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_SOURCE_DIR})
 
 # 设置变量
-set(TARGRT ${PROJECT_NAME}-${CMAKE_SYSTEM_NAME})
+set(TARGET ${PROJECT_NAME}-${CMAKE_SYSTEM_NAME})
 
 # 查找并载入SDL2库
 find_package(SDL2 REQUIRED)
+find_package(SDL2_image REQUIRED)
+find_package(SDL2_mixer REQUIRED)
+find_package(SDL2_ttf REQUIRED)
 
-add_executable(${TARGRT} main.cpp)
+add_executable(${TARGET} 
+        "src/main.cpp"
+        "src/Game.cpp"
+        "src/SceneMain.cpp"
+)
 
 # 链接SDL2库
-target_link_libraries(${TARGRT} ${SDL2_LIBRARIES})
+target_link_libraries(${TARGET} 
+                        ${SDL2_LIBRARIES} 
+                        SDL2_image::SDL2_image
+                        SDL2_mixer::SDL2_mixer
+                        SDL2_ttf::SDL2_ttf
+                        )
